@@ -1,6 +1,7 @@
 <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/loaders/SVGLoader.js"></script>
 
+<script>
 document.addEventListener('DOMContentLoaded', function() {
     const scene = new THREE.Scene();
     const particleBg = document.querySelector('.particle-bg');
@@ -176,3 +177,4 @@ document.addEventListener('DOMContentLoaded', function() {
         renderer.setSize(particleBg.offsetWidth, particleBg.offsetHeight);
     });
 });
+</script>
